@@ -57,8 +57,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -140,31 +142,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3254}
     - Class: 114
-      Script: {instanceID: 3520}
+      Script: {instanceID: 3316}
     - Class: 114
-      Script: {instanceID: 3654}
+      Script: {instanceID: 3522}
     - Class: 114
-      Script: {instanceID: 4240}
+      Script: {instanceID: 3656}
     - Class: 114
-      Script: {instanceID: 4374}
+      Script: {instanceID: 4242}
     - Class: 114
-      Script: {instanceID: 4510}
+      Script: {instanceID: 4376}
     - Class: 114
-      Script: {instanceID: 4616}
+      Script: {instanceID: 4512}
     - Class: 114
-      Script: {instanceID: 4774}
+      Script: {instanceID: 4618}
     - Class: 114
-      Script: {instanceID: 4840}
+      Script: {instanceID: 4776}
     - Class: 114
-      Script: {instanceID: 4960}
+      Script: {instanceID: 4842}
     - Class: 114
-      Script: {instanceID: 5018}
+      Script: {instanceID: 4962}
     - Class: 114
-      Script: {instanceID: 5150}
+      Script: {instanceID: 5020}
     - Class: 114
-      Script: {instanceID: 5616}
+      Script: {instanceID: 5152}
     - Class: 114
-      Script: {instanceID: 18548}
+      Script: {instanceID: 5618}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -223,31 +225,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3254}
     - Class: 114
-      Script: {instanceID: 3326}
+      Script: {instanceID: 3328}
     - Class: 114
-      Script: {instanceID: 3520}
+      Script: {instanceID: 3522}
     - Class: 114
-      Script: {instanceID: 3598}
+      Script: {instanceID: 3600}
     - Class: 114
-      Script: {instanceID: 3602}
+      Script: {instanceID: 3604}
     - Class: 114
-      Script: {instanceID: 3654}
+      Script: {instanceID: 3656}
     - Class: 114
-      Script: {instanceID: 3694}
+      Script: {instanceID: 3696}
     - Class: 114
-      Script: {instanceID: 3884}
+      Script: {instanceID: 3886}
     - Class: 114
-      Script: {instanceID: 4166}
+      Script: {instanceID: 4168}
     - Class: 114
-      Script: {instanceID: 5018}
+      Script: {instanceID: 5020}
     - Class: 114
-      Script: {instanceID: 5150}
+      Script: {instanceID: 5152}
     - Class: 114
-      Script: {instanceID: 5178}
+      Script: {instanceID: 5180}
     - Class: 114
-      Script: {instanceID: 5368}
+      Script: {instanceID: 5370}
     - Class: 114
-      Script: {instanceID: 5608}
+      Script: {instanceID: 5610}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -619,6 +621,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Assets.UI.Scripts.Menu
+    className: GameUI
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1237,12 +1245,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Assets.UI.Scripts.Menu
-    className: GameUI
   platform: 19
   scenePathNames:
   - Assets/Scenes/s_Menu.unity

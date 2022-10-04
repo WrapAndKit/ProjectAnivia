@@ -74,8 +74,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4282269246
+  m_fontColor: {r: 0.24313727, g: 0.24313727, b: 0.24313727, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -199,11 +199,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4985093355516818946, guid: e4840c6e806212a48bee446c5cdd4245, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4985093355716198177, guid: e4840c6e806212a48bee446c5cdd4245, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4985093356494082969, guid: e4840c6e806212a48bee446c5cdd4245, type: 3}
       propertyPath: m_text
@@ -328,6 +328,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3993845020293248890}
     m_Modifications:
+    - target: {fileID: 3277756151173405786, guid: a0ae38620a62b7d4285d1e3cee6fd256, type: 3}
+      propertyPath: m_text
+      value: Back
+      objectReference: {fileID: 0}
     - target: {fileID: 8593663979845019930, guid: a0ae38620a62b7d4285d1e3cee6fd256, type: 3}
       propertyPath: m_Name
       value: BackButton
@@ -496,9 +500,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 497e8c45ff4324e40ada0569e610bfb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  p_img: {fileID: 0}
-  p_default: {fileID: 0}
-  p_pressed: {fileID: 0}
+  p_default: {fileID: 21300000, guid: d4824ea9c0501424a90916c721bf72bf, type: 3}
+  p_pressed: {fileID: 21300000, guid: 6becd82be43b9124daa510ce901c42ab, type: 3}
 --- !u!1001 &3993845020456966302
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -540,11 +543,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4985093355516818946, guid: e4840c6e806212a48bee446c5cdd4245, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4985093355716198177, guid: e4840c6e806212a48bee446c5cdd4245, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4985093356494082969, guid: e4840c6e806212a48bee446c5cdd4245, type: 3}
       propertyPath: m_text
@@ -693,11 +696,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4985093355516818946, guid: e4840c6e806212a48bee446c5cdd4245, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4985093355716198177, guid: e4840c6e806212a48bee446c5cdd4245, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4985093356494082969, guid: e4840c6e806212a48bee446c5cdd4245, type: 3}
       propertyPath: m_text
